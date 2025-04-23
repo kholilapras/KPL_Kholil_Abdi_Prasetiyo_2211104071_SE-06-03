@@ -1,0 +1,21 @@
+{
+    "firstName": "Kholil Abdi",
+    "lastName": "Prasetiyo",
+    "gender": "male",
+    "age": 20,
+    "address": {
+        "streetAddress": "Jl. Gumelar",
+        "city": "Banyumas",
+        "state": "Central Java"
+    },
+    "courses": [
+        {
+            "code": "CCK2DAB3",
+            "name": "Proses Perangkat Lunak"
+        },
+        {
+            "code": "CCK2LAB3",
+            "name": "Kecerdasan Buatan"
+        }
+    ]
+}

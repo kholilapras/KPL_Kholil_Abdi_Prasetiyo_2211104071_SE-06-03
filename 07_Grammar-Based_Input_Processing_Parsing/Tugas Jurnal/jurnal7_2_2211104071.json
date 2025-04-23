@@ -1,0 +1,25 @@
+{
+    "members": [
+        {
+            "firstName": "Thom",
+            "lastName": "Haye",
+            "gender": "male",
+            "age": 28,
+            "nim": "7349282382"
+        },
+        {
+            "firstName": "Jay",
+            "lastName": "Idzes",
+            "gender": "male",
+            "age": 32,
+            "nim": "5678568567"
+        },
+        {
+            "firstName": "Hokky",
+            "lastName": "Caraka",
+            "gender": "female",
+            "age": 24,
+            "nim": "456754675"
+        }
+    ]
+}
