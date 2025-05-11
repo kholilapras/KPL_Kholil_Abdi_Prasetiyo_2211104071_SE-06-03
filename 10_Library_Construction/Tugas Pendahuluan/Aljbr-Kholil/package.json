@@ -1,0 +1,15 @@
+{
+  "name": "aljbr-kholil",
+  "version": "1.0.0",
+  "description": "Library Aljabar Tugas Pendahuluan KPL Pertemuan 10",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aljabar",
+    "kuadrat"
+  ],
+  "author": "Kholil Abdi Prasetiyo",
+  "license": "ISC"
+}
