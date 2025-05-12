@@ -1,0 +1,14 @@
+{
+  "name": "mtklib-tj10kpl",
+  "version": "1.0.0",
+  "description": "Library matematika Tugas Jurnal KPL Pertemuan 10",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "matematika"
+  ],
+  "author": "Kholil Abdi Prasetiyo",
+  "license": "ISC"
+}
