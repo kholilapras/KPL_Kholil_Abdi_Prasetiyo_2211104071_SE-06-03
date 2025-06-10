@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aplikasi User</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        input {
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 200px;
+        }
+
+        button {
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        #message {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Registrasi User</h1>
+    <input type="text" id="regUsername" placeholder="Username">
+    <input type="password" id="regPassword" placeholder="Password">
+    <button id="registerButton">Register</button>
+
+    <h1>Login User</h1>
+    <input type="text" id="loginUsername" placeholder="Username">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <button id="loginButton">Login</button>
+
+    <div id="message"></div>
+
+    <script>
+        document.getElementById('registerButton').addEventListener('click', async () => {
+            const username = document.getElementById('regUsername').value;
+            const password = document.getElementById('regPassword').value;
+            const result = await window.api.registerUser(username, password);
+            document.getElementById('message').innerText = result.message;
+            document.getElementById('message').style.color = result.success ? 'green' : 'red';
+        });
+
+        document.getElementById('loginButton').addEventListener('click', async () => {
+            const username = document.getElementById('loginUsername').value;
+            const password = document.getElementById('loginPassword').value;
+            const result = await window.api.loginUser(username, password);
+            document.getElementById('message').innerText = result.message;
+            document.getElementById('message').style.color = result.success ? 'green' : 'red';
+        });
+    </script>
+</body>
+
+</html>
